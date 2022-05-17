@@ -1,6 +1,6 @@
 -- 甲在盒子内的坐标
 points = {
-    -- X,Y,Time(ms)
+    {9630,34468,5},
     {9630,35219,5},
     {9630,38403,5}
 }
@@ -24,7 +24,7 @@ function OnEvent(event, arg)
 
         -- 点击事件
         for k, v in ipairs(points) do
-            Sleep(5)
+            Sleep(1)
             MoveMouseTo(v[1], v[2]);
             Sleep(1)
             PressMouseButton(1)
