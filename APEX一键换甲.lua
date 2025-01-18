@@ -6,7 +6,7 @@ points = {
 }
 
 -- 声明
-OutputLogMessage("===========================\nREWASD QQqun:744832457\nby taobao: ma cha chong hao jie\n===========================\n")
+OutputLogMessage("===========================\n by andtun \n===========================\n")
 
 -- main
 function OnEvent(event, arg)
